@@ -1,1 +1,174 @@
+:root{
+    --main-text-color: #212121; /* Основний колір тексту */
+    --second-text-color: #757575; /* Додатковий колір тексту */
+    --hover-text-color: #2196F3; /* Колір тексту при наведені + лого */
+    --white-text-color: #fff; /* Колір зеголовку h1 + текст в футері */
+    --bg-main-color: #fff; /* Основний фон сайта */
+    --second-bg-color: #F5F4FA; /* Додатковий колір фона */
+    --hero-bg-color: #2F303A; /* Фон для Hero і Footer */
+}
 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--main-text-color);
+    margin: 0;
+}
+
+/* Header */
+
+.page-header{
+    background-color: var(--bg-main-color);
+}
+.page-header .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+.page-header .logo span{
+color: var(--hover-text-color);
+}
+
+.main-links a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+.main-links a:hover,
+.main-links a:focus{
+    color: var(--hover-text-color)
+}
+.main-links li{
+    list-style: none;
+}
+
+.contacts-header a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--second-text-color);
+}
+.contacts-header a:hover,
+.contacts-header a:focus{
+    color: var(--hover-text-color);
+}
+.contacts-header li{
+    list-style: none;
+}
+
+/* Hero */
+.hero{
+    background-color: var(--hero-bg-color);
+}
+.hero > .hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
+.hero .hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    color: var(--white-text-color);
+    background-color: var(--hover-text-color);
+    border: none;
+}
+
+/* Приемущества */
+.section-advantages .advantages-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+}
+.section-advantages>.advantages>li{
+    list-style: none;
+}
+.section-advantages .advantages-dscr{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+/* Чем мы занимаемся */
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+.section-work li{
+    list-style: none;
+}
+
+/* Наша команда */
+.section-team{
+    background-color: var(--second-bg-color);
+}
+.section-team .team-person{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+.section-team .team-dscn{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+.team-members li{
+    list-style: none;
+}
+
+/* Footer */
+.page-footer{
+    background-color: var(--hero-bg-color);
+}
+.page-footer .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white-text-color);
+}
+.page-footer .logo>span{
+    color: var(--hover-text-color);
+}
+.page-footer address{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);
+}
+.page-footer a{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--second-text-color);
+}
