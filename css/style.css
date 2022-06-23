@@ -160,20 +160,23 @@ color: var(--hover-text-color);
 .page-footer .logo>span{
     color: var(--hover-text-color);
 }
-.page-footer address{
+.footer-address .address-place{
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--white-text-color);
 }
-.page-footer a{
+.footer-address a{
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--second-text-color);
+}
+.footer-address li{
+    list-style: none;
 }
 
 /* Портфоліо */
